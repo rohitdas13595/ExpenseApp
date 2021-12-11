@@ -36,11 +36,11 @@ const ExpenseForm = (props) => {
   const submitHandler = (event) => {
     event.preventDefault();
     const expenseData = {
-      tilte: enteredTitle,
+      title: enteredTitle,
       amount: enteredAmount,
       date: new Date(enteredDate),
     };
-    props.onSaveExpenseData(expenseData)
+    props.onSaveExpenseData(expenseData);
     setEnteredTitle("");
     setEnteredAmount("");
     setEnteredDate("");
@@ -62,7 +62,6 @@ const ExpenseForm = (props) => {
           <input
             type="number"
             value={enteredAmount}
-            min="0"
             onChange={amountChangeHandler}
             required
           />
@@ -79,7 +78,8 @@ const ExpenseForm = (props) => {
           />
         </div>
         <div id="expense_actions">
-          <button>Add Expense:</button>
+          <button type="button" onClick={props.onCancel}>Cancel</button>
+          <button>Add Expense</button>
         </div>
       </div>
     </form>

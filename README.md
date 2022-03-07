@@ -28,8 +28,7 @@ This is a sample Expense App create in react.js.
 
 ### Languages and Tools used for this project:
 
-[<img align="left" alt="Node Js" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/node-dot-js.svg" />][nodejs]
-[<img align="left" alt="Express" width="22px" src="https://devtechnosys.com/insights/wp-content/uploads/2019/06/express-js-logo.png" />][expressjs]
+[<img align="left" alt="ReactJs" width="22px" src="./react-2.svg" />][reactjs]
 
 
 <br />
@@ -44,4 +43,5 @@ This is a sample Expense App create in react.js.
 [mapbox]: https://www.mapbox.com
 [nodejs]: https://nodejs.org/en
 [expressjs]: https://expressjs.com
+[reactjs]: https://reactjs.org
 
